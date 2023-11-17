@@ -10,27 +10,29 @@
 	<label for="name">Name</label>
 	<input type="Text" id="name" placeholder="Name" required>
 	<label for="email">Email</label>
-	<input name="email" type="Email" id="email" placeholder="Email" required>
+	<input name="email" type="email" id="email" placeholder="Email" required>
 	<label>Gender</label>
 	<label for="gender_m">Male</label>
 	<input name="gender" type="radio" id="gender_m" required>
 	<label for="gender_f">Female</label>
 	<input name="gender" type="radio" id="gender_f" required>
 	<label for="cars">Car Brands</label>
-	<select name="cars option" type="Select" id="cars" placeholder=--Please choose an option-- required>
-		<option value="audi">audi</option>
-		<option value="lambo">lambo</option>
-	</select>
+	<select name="cars" id="cars" required>
+	<option value="" disabled>--Please choose an option--</option>
+	<option value="audi">Audi</option>
+	<option value="lambo">Lamborghini</option>
+    </select>
+
 	<label for="age">Age</label>
-	<input name="age" type="Number" id="age" placeholder=Age required>
+	<input name="age" type="number" id="age" placeholder="Age" required>
 	<label for="dob">DOB</label>
-	<input name="dob" type="Date" id="dob" placeholder="Age" required>
+	<input name="dob" type="date" id="dob" required>
 	<label for="tel">Phone Number</label>
-	<input name="tel" type="Tel" id="tel" Placeholder="xxx-xxx-xxxx">
+	<input name="tel" type="tel" id="tel" Placeholder="xxx-xxx-xxxx">
 	<label for="password">Password</label>
-	<input name="password" type="Password" id="password" placeholder="Password" required>
+	<input name="password" type="password" id="password" placeholder="Password" required>
 	<label for="tos">I agree to the TOS</label>
-	<input name="tos" type="Checkbox" id="tos" required>
+	<input name="tos" type="checkbox" id="tos" required>
 	<button type="submit">Submit</button>
 </body>
 
